@@ -113,7 +113,7 @@ $ git add .
 
 
 ```
-$ git commit -m "file name"
+$ git commit -m "commit message"
 ```
 
 
