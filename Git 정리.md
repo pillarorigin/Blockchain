@@ -125,7 +125,7 @@ $ git <명령(command)><인자(arguments)>
 
 [사진 첨부 # Git_StorageDataFlow.png]
 
-![Git_StorageDataFlow](C:\Users\student\Desktop\YIG\Study\19.11.15 (금) react cli 맛보기\Git_StorageDataFlow.png)
+![image](https://www.ntu.edu.sg/home/ehchua/programming/howto/images/Git_StorageDataFlow.png)
 
 ### 8. Git 로컬 repo 시작
 
@@ -133,7 +133,7 @@ git 프로젝트 시작 방법은 2가지가 존재합니다.
 
 1. **자신의 프로젝트 새로 시작**  하는 방법
 
-2. **Git host에서 기존 프로젝트 복제(clone)** 하는 방법
+2. **Git host에서 기존 프로젝트 복제(clone)**하는 방법
 
    
 
