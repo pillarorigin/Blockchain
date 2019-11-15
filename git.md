@@ -42,7 +42,7 @@ user.email=xxxxxx@xxxxxx.com
 user.name=xxxxxx
 ```
 
-### Git 기본 (index - commit - push)
+### 6. Git 기본 (index - commit - push)
 
 ```
 $ git <명령(command)><인자(arguments)>
@@ -57,11 +57,11 @@ $ git <명령(command)><인자(arguments)>
 [git mother site]: https://git-scm.com/docs
 
 
-### Git Storage Model
+### 7. Git Storage Model
 [사진 첨부 # Git_StorageDataFlow.png]
 
 
-### Git 로컬 repo 시작
+### 8. Git 로컬 repo 시작
 git 프로젝트 시작 방법은 2가지가 존재합니다.
     1. 자신의 프로젝트 새로 시작
     2. Git host에서 기존 프로젝트 복제(clone)
