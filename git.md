@@ -79,10 +79,34 @@ git 프로젝트 시작 방법은 2가지가 존재합니다.
     ```
     git init 명령어를 입력한 뒤에 해당하는 local repo는 비어있어야 합니다. 
     파일을 명시적으로 repo에 deposit해주어야 합니다.
-    (Before we proceed, it is important to stress that Git manages changes to       files between so-called commits. In other words, it is a version control        system that allows you to keep track of the file changes at the commits.
+    (Before we proceed, it is important to stress that Git manages changes to files between so-called commits. In other words, it is a version control system that allows you to keep track of the file changes at the commits.
     
 
-
+    3) Staging File 변경 사항 추적
+    ```
+    $ git status
+    ```
+    
+    4) 파일 추가 (git add <file>...)
+    ```
+    $ git add .
+    //현재 디렉토리의 모든 것을 추가 하겠습니다.
+    
+    $ git add <해당 파일.확장자명>
+    //와일드 카드 패턴이 있는 하나 이상의 파일 이름 또는 경로 사용
+    ```
+    
+    5) 파일 변경 커밋 (git commit -m "커밋 메세지")
+    ```
+    $ git commit -m "file name"
+    
+    // commit한 log 보기
+    $ git log --[옵션 --oneline --file-pattern --author ="<author-name-pattern"]
+    
+    // 각 커밋은 40 자리 16 진수 SHA-1 해시 코드로 식별. 
+    // 커밋을 참조하기 위해 처음 7 개의 16 진수를 사용
+    ```
+    
 
 
 
@@ -123,38 +147,6 @@ master branch pull
 
 
 
-```
-$ get add .
-```
-
-index
-
-
-
-```
-$ git status
-```
-
-On branch master
-Changes to be committed:
-  (use "git reset HEAD <file>..." to unstage)
-
-
-
-```
-$ git commit -m "file name"
-```
-
-
-
-```
-$ git status
-```
-
-On branch master
-nothing to commit, working tree clean
-
-
 
 ```
 $ git push origin master
@@ -181,19 +173,6 @@ $ git lfs track "*.pdf"
 ```
 
 Tracking "*.pdf"
-
-
-
-```
-$ git add . 
-```
-
-
-
-```
-$ git commit -m "commit message"
-```
-
 
 
 ```
