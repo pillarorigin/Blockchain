@@ -200,4 +200,4 @@ $ git commit -m "commit message"
 $ git push origin master
 ```
 
-[출처] : https://www.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
+[참고자료] : https://www.ntu.edu.sg/home/ehchua/programming/howto/Git_HowTo.html
