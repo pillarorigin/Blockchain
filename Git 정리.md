@@ -17,7 +17,8 @@
 	
 	
 3 단계 
-	git dir로 이동 후 
+	github사이트에서 원격저장소(repository)
+	git remote add origin <remote URL>
 	git 초기화 ($ git init)
 	README.md 작성
 	
