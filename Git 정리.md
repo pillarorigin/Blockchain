@@ -2,11 +2,19 @@
 
 ```
 1 단계
-	git 설치
+	git 설치 
+	로컬 저장소로 만들 폴더 안에서 git bash
+	(로컬저장소는 git이 관리하는 3개의 줄기로 구성)
+		1. 디렉토리는 실제 파일들로 이루어져 있고
+		2. 인덱스는 준비영역의 역할을 하며
+		3. 헤드는 최종 확정본(commit) 을 나타냅니다.
+
 	
 2 단계
 	git 구성 (config)
-	$ git config --g user.email "@mail.com"
+	$ git config --global user.name "USERNAME"
+	$ git config --gliobal user.email "USEREEMAIL@mail.com"
+	
 	
 3 단계 
 	git dir로 이동 후 
@@ -16,7 +24,7 @@
 4 단계
 	"Edit/Stage/Commit/Push" cycle.
 	$ git status
-	$ git add .
+	$ git add . (`add` 명령어는 인덱스(두번째 줄기)에 추가하는 것)
 	
 5 단계 
 	.gitignore 설정
@@ -24,8 +32,8 @@
 6 단계
 	commit 후 push
 	$ git status
-	$ git commit -m "commit message"
-	$ git push origin master
+	$ git commit -m "commit message" (`commit`명령어는 헤드에 추가해서 실제로 변경 내용을 확정.)
+	$ git push origin master (`push`명령어는 Git의 원격 저장소에 반영을 합니다.)
 
 7 단계
 	태그 지정
