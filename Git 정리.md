@@ -17,10 +17,11 @@
 	
 	
 3 단계 
-	github사이트에서 원격저장소(repository)
-	git remote add origin <remote URL>
-	git 초기화 ($ git init)
+	github사이트에서 원격저장소(repository) 생성
 	README.md 작성
+	git remote add origin <remote repository URL>
+	git 초기화 ($ git init)
+	
 	
 4 단계
 	"Edit/Stage/Commit/Push" cycle.
