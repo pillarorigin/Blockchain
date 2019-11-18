@@ -212,7 +212,6 @@ git 프로젝트 시작 방법은 2가지가 존재합니다.
 1.  저장소 종류:
 
    - Github  (  public  프로젝트의 경우 무제한;  private  프로젝트의 경우 요금 )
-
    - BitBucket  ( public  프로젝트의 경우 무제한 사용자, private  프로젝트의 경우 5 명의 무료 사용자, 학업 계획의 경우 무제한 )
 
 2. 로컬 스토리지 설정( `git remote add  `. )
@@ -237,6 +236,23 @@ git 프로젝트 시작 방법은 2가지가 존재합니다.
    // 브랜치 "master"의 모든 커밋을 원격 저장소 "origin"으로 푸시합니다. 
    $ git push origin master 
    ```
+4. git 원격 저장소 여러개 연결.
+   ```bash
+   $ git clone httpps://gihub.com/복사할 나머지 repo url
+   //프로젝트 폴더로 이동
+   $ cd 폴더명/폴더명/..
+   //github.com에 있는 repo url 복사
+   $ git remote add "저장소명" "url"
+   //원격 저장소 목록 확인
+   $ git remote -v
+   
+5. 원격 저장소 주소 변경
+   ```bash
+   $ git remote set-url "저장소명" "새로운 url"
+   
+6. 원격저장소 명시한 이름 변경
+   ```bash
+   $git remote rename "현재 저장소 명" "새로운 저장소 명"
 
    
 
